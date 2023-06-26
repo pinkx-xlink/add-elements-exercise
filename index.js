@@ -8,7 +8,9 @@ container.appendChild(content);
 
 
 //<p> with red tag "Hey I'm red!"
-
+const p = document.createElement('p')
+p.textContent = 'Hey I am red!'
+p.setAttribute('style', 'backgroundColor: red;');
 
 
 //<h3> with blue text "Hey I'm blue!"
@@ -18,4 +20,3 @@ container.appendChild(content);
     //<h1> "I'm a div"
     //<p> "ME TOO!!!!!"
     //HINT: after creating <div> w createElement, append <h1> and <p> to it before adding it to container
-    
