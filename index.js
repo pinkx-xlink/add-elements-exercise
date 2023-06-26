@@ -8,10 +8,12 @@ container.appendChild(content);
 
 
 //<p> with red tag "Hey I'm red!"
-const p = document.createElement('p')
+const p = document.createElement('p');
+p.classList.add('p');
 p.textContent = 'Hey I am red!'
 p.setAttribute('style', 'backgroundColor: red;');
 
+container.appendChild(p);
 
 //<h3> with blue text "Hey I'm blue!"
 
