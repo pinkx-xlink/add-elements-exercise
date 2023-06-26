@@ -19,7 +19,7 @@ container.appendChild(p);
 //<h3> with blue text "Hey I'm blue!"
 const h3 = document.createElement('h3');
 h3.classList.add('h3');
-h3.textConent = "Howdy, I'm Blue :)";
+h3.textContent = "Howdy, I'm Blue :)";
 h3.setAttribute('style', 'background-color: blue;');
 
 container.appendChild(h3);
