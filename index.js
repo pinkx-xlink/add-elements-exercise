@@ -26,6 +26,11 @@ container.appendChild(h3);
 
 
 // <div> with black border and pink bg color
+const box = document.createElement('box');
+box.classList.add('box');
+box.setAttribute('style', 'background-color: pink; border: 15px solid black; height: 100px; length: 100px;');
     //<h1> "I'm a div"
+    const h1 = document.createElement('h1')
+    h1.textContent = "I'm a div! :0";
     //<p> "ME TOO!!!!!"
     //HINT: after creating <div> w createElement, append <h1> and <p> to it before adding it to container
