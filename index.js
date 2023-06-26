@@ -26,11 +26,11 @@ container.appendChild(h3);
 
 
 // <div> with black border and pink bg color
-const box = document.createElement('box');
+const box = document.createElement('div');
 box.classList.add('box');
-box.textContent = " ";
 box.setAttribute('style', 'background-color: pink; border: 15px solid black; height: 100px; length: 100px;');
 
+container.appendChild(box);
 
 
 //<h1> "I'm a div"
